@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../About';
 
 class Signin extends React.Component {
   constructor(props) {
@@ -38,6 +39,8 @@ class Signin extends React.Component {
   render() {
     const { onRouteChange } = this.props;
     return (
+      <div>
+      <About />
       <article className="br3 ba b--black-10 bg-white mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 black-80">
           <div className="measure">
@@ -67,7 +70,7 @@ class Signin extends React.Component {
             <div className="">
               <input
                 onClick={this.onSubmitSignIn}
-                className="ph5 pv2 input-reset ba b--black bg-transparent grow pointer dib"
+                className="ph5 pv2 input-reset ba btn-sign pointer"
                 type="submit"
                 value="Sign in"
               />
@@ -78,6 +81,7 @@ class Signin extends React.Component {
           </div>
         </main>
       </article>
+      </div>
     );
   }
 }
