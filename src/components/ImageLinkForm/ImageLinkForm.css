@@ -7,3 +7,12 @@
   font-size: 1.6rem;
   font-weight: 300;
 }
+
+.container {
+  background-color: #17212d;
+}
+
+.btn {
+  color: #ffffff;
+  background-color: #004eeb;
+}
