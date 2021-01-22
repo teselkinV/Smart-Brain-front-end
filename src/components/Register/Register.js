@@ -43,6 +43,7 @@ class Register extends React.Component {
   }
 
   render() {
+    const { onRouteChange } = this.props;
     return (
       <div>
         <About />
@@ -82,13 +83,17 @@ class Register extends React.Component {
                 />
               </div>
             </fieldset>
-            <div className="">
+            <div>
               <input
                 onClick={this.onSubmitSignIn}
                 className="ph5 pv2 input-reset ba btn-sign pointer"
                 type="submit"
                 value="Register"
               />
+            </div>
+            <div className="lh-copy mt3">
+              <p className='sign-form-text'>Already have account?</p>
+              <p  onClick={() => onRouteChange('signin')} className="link db sign-form-link">Sign in</p>
             </div>
           </div>
         </main>
