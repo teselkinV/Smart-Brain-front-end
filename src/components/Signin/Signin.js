@@ -58,7 +58,7 @@ class Signin extends React.Component {
               </div>
               <div className="mv3">
                 <input
-                  className="pa2 input-reset ba hover-bg-grey w-100"
+                  className="pa2 input-reset ba w-100"
                   placeholder='Password'
                   type="password"
                   name="password"
@@ -76,7 +76,8 @@ class Signin extends React.Component {
               />
             </div>
             <div className="lh-copy mt3">
-              <p  onClick={() => onRouteChange('register')} className="link dim black db pointer">Register</p>
+              <p className='sign-form-text'>Don't have account?</p>
+              <p  onClick={() => onRouteChange('register')} className="link db sign-form-link">Register</p>
             </div>
           </div>
         </main>

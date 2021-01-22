@@ -6,6 +6,7 @@ import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
+import Example from './components/Example';
 import './App.css';
 
 const particlesOptions = {
@@ -124,6 +125,7 @@ class App extends Component {
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
         { route === 'home'
           ? <div>
+              <Example />
               <Rank
                 name={this.state.user.name}
                 entries={this.state.user.entries}
