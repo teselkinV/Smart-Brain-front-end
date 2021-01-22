@@ -2,6 +2,8 @@
   text-align: center;
 }
 
+
+
 .center {
   display: flex;
   justify-content: center;
@@ -16,9 +18,8 @@
   z-index: -1;
 }
 .about {
-  margin-top: 6rem;
   max-width: 50rem;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .about-title {
@@ -44,3 +45,40 @@
   font-weight: 400;
 }
 
+/* Button */
+.btn-sign {
+  background-color: #004eeb;
+  color: #ffff;
+  border: none;
+}
+
+.btn-sign:hover {
+  background-color: #ffff;
+  color: #004eeb;
+  border: 1px solid #004eeb;
+}
+
+/* Navlinks */
+
+.nav-btn-sign,
+.nav-btn-register {
+  border: 1px solid #004eeb;
+  cursor: pointer;
+  margin: 0.5rem;
+  color: #004eeb;
+}
+
+.nav-btn-sign {
+  color: #ffff;
+  background-color: #004eeb;
+}
+
+.nav-btn-sign:hover {
+  background-color: #ffff;
+  color: #004eeb;
+}
+
+.nav-btn-register:hover {
+  color: #ffff;
+  background-color: #004eeb;
+}
