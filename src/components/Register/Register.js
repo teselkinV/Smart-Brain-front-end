@@ -43,14 +43,14 @@ class Register extends React.Component {
 
   render() {
     return (
-      <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
+      <article className="br3 ba b--black-10 bg-white mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
         <main className="pa4 black-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
               <legend className="f1 fw6 ph0 mh0">Register</legend>
               <div className="mt3">
                 <input
-                  className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                  className="pa2 input-reset ba hover-bg-black w-100"
                   placeholder='Name'
                   type="text"
                   name="name"
@@ -60,7 +60,7 @@ class Register extends React.Component {
               </div>
               <div className="mt3">
                 <input
-                  className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                  className="pa2 input-reset ba hover-bg-black w-100"
                   placeholder='Email'
                   type="email"
                   name="email-address"
@@ -70,7 +70,7 @@ class Register extends React.Component {
               </div>
               <div className="mv3">
                 <input
-                  className="pa2 input-reset ba bg-transparent hover-bg-black hover-white w-100"
+                  className="pa2 input-reset ba hover-bg-black w-100"
                   placeholder='Password'
                   type="password"
                   name="password"
