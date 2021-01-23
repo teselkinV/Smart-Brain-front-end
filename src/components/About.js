@@ -10,7 +10,6 @@ function About() {
                  This model is great for anyone building an app that monitors or detects human activity.</p>
             <p className='about-test'>Test login: <span className='about-span'>demo@gmail.com</span></p>
             <p className='about-test'>Test password: <span className='about-span'>demo</span></p>
-            {/* <button className='about-btn'>Try it now</button> */}
         </div>
     );
 }

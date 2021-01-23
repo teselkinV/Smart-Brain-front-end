@@ -12,9 +12,12 @@ function Example() {
                 <img className='image' src={image2} alt=''/>
                 <img className='image' src={image3} alt=''/>
             </div>
-            <p>Here is a link to photo for <a target='_blank' rel="noopener noreferrer" href='https://cutt.ly/KjZwI7I'>
+            <p>Here is a link to photo for 
+                <a target='_blank' 
+                    rel="noopener noreferrer" 
+                    href='https://cutt.ly/KjZwI7I'>
                     examples</a>
-                    </p>
+                </p>
         </div>
     );
 }
